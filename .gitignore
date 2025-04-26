@@ -1,0 +1,17 @@
+# Environments
+.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw and full datasets
+data/recordings/
+data/dataset/
+*.zip
+
+# Large models
+experiments/train_rt_detr/best_rtdetr_l.pt
+experiments/train_yolo5/best_yolov5_m.pt
+experiments/train_yolo8/best_yolov8_m.pt
